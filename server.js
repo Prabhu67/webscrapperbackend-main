@@ -166,6 +166,9 @@ app.get('/products', async (req, res) => {
     res.status(500).json({ error: 'Internal server error' });
   }
 });
+app.get('/',(req,res)=>{
+  res.send("wellcome To WebScrapping")
+})
 
 
 
